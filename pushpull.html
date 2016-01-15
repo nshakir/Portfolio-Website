@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+
+<title>Nectar Shakir | Web Design | Web Development | UX Experience | Seattle, WA</title>
+<link href="style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+	$(window).load(function() {
+
+		$("#toggle").click(function() {
+
+
+			$("#toggle-nav").toggle();
+
+		});
+
+	});
+</script>
+
+<body>
+    <div id="main-nav">
+			<div id="logo"><a href="http://nectarshakir.com"><h1>NECTAR<br> SHAKIR</h1></a></div>
+  <p id="toggle">☰ MENU</p>
+  <nav id="toggle-nav">
+  <div id="nav-items">
+  <ul>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="cossar.html" class="current">PROJECTS</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+  </div>
+</nav>
+</div>
+<div class="wrapper">
+  <div id ="projects-navbar">
+  <a href="motorless.html"><h5><< </a>
+  </div>
+<div class="projects">
+  <ul class="tabs">
+  <li class="tab-link current" data-tab="tab-1">Info</li>
+  <li class="tab-link" data-tab="tab-2">UX Analysis</li>
+  <li class="tab-link" data-tab="tab-3">Styles</li>
+  <li class="tab-link" data-tab="tab-4">Visual Designs</li>
+</ul>
+<div id="tab-1" class="tab-content current">
+  <div class="projects-bio">
+    <h5>CLIENT</h5>
+    <h2>Push/Pull Studios<br>75% Completed</h2>
+    <p>Push Pull Studio is a recording studio based in Seattle, WA. One of the client's concern was to be able to use SEO to have his website be more searchable. Push Pull Studio was the first time I used WordPress integrating. I used content audit, information architectures, visual and functional design to get this website off the ground.</p>
+
+  <p>A new thing that I learned from this project was the difference between Wordpress.com and Wordpress.org and how Wordpress.com accounts does not let you do a quick install for customizable themes as Wordpress.org would. With this issue, I did redirects of Push Pull domain from their original Wordpress.com account to a new Wordpress.org account in order to install a customized theme.</p>
+  </div>
+<div class="proj-list">
+  <h5>2015</h5><br>
+  <h5>SERVICES</h5>
+  <ul>
+    <li>Web Design</li>
+    <li>UX Design</li>
+    <li>WordPress Integration</li>
+  </ul>
+  <a href="http://www.recordingstudioseattle.com">ORIGINAL SITE >></a><br>
+</div>
+</div>
+
+	<div id="tab-2" class="tab-content">
+<div class="wireframes">
+<h3>UX ANALYSIS</h3>
+<div class="excerpt">
+  <p>The client provided their own navigation architecture and was looking for a new website layout.</p>
+</div>
+<div class="proj-img"><img src="images/wirehome.png" width="100%"></div>
+</div>
+</div>
+
+	<div id="tab-3" class="tab-content">
+    <div class="wireframes">
+    <h3>STYLES</h3>
+    <div class="excerpt">
+    <p>The client provided their own color palette.</p>
+    </div>
+    <img src="images/pushcolor.png" width="100%">
+    </div>
+  </div>
+
+  <div id="tab-4" class="tab-content">
+  	<div class="wireframes">
+  	<h3>VISUAL DESIGNS</h3>
+  	<div class="excerpt">
+  		<p>Using the provided styles and by implementing the chosen wireframe, I was able to design different home page visual designs. </p>
+  	</div>
+  	<div class="proj-img">
+  	  <h4>Design 1</h4>
+  	  <img src="images/design1home.png" width="100%">
+  	</div>
+  	<div class="proj-img">
+  	  <h4>Design 2</h4>
+  	  <img src="images/design2home.png" width="100%">
+  	</div>
+
+
+</div>
+</div>
+</div>
+<div id="footer">
+© Nectar Shakir 2015
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+<a href="https://www.behance.net/nectarshakir"><ul><li><img src="images/behance7.png" alt="behance logo" width="25"></a></li>
+<li><a href="https://www.linkedin.com/in/nectarshakir"><img src="images/linkedin12.png" alt="linkedin logo" width="25"></a></li></ul>
+ </div>

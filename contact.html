@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<title>Nectar Shakir | Web Design | Web Development | UX Experience | Seattle, WA</title>
+<link href="style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Begin Toggle Menu -->
+<script type="text/javascript">
+
+
+	$(window).load(function() {
+
+		$("#toggle").click(function() {
+
+
+			$("#toggle-nav").toggle();
+
+		});
+
+	});
+</script>
+<!-- End Toggle Menu -->
+
+<body>
+    <div id="main-nav">
+			<div id="logo"><a href="http://nectarshakir.com"><h1>NECTAR<br> SHAKIR</h1></a></div>
+  <p id="toggle">☰ MENU</p>
+  <nav id="toggle-nav">
+  <div id="nav-items">
+  <ul>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="cossar.html">PROJECTS</a></li>
+    <li><a href="contact.html" class="current">CONTACT</a></li>
+  </ul>
+  </div>
+</nav>
+</div>
+
+
+<div id="form-main">
+  <p>Let's grab coffee!</p>
+  <div id="form-div">
+  <form method="post" action="includes/formhandler.php">
+          <p class="name">Name:
+          <input type="text" placeholder="Full Name" name="first-name" id="first-name" maxlength ="50" class="box-input"/>
+          </p>
+          <p class="email">E-Mail:
+          <input type="email" name="email" id="email" maxlength="100" required="required" class="box-input" />
+          </p>
+
+
+          <p class="inquiry">
+          What Would You Like to Discuss?<br>
+          <label><input type="checkbox" id="rates" name="topic[]" value="rates" /> Rates and Services</label>
+          <br><label><input type="checkbox" id="rates" name="topic[]" value="collab" /> Collaborations</label>
+          <br><label><input type="checkbox" id="rates" name="topic[]" value="coffee" /> Let's Just Have Coffee!</label>
+          </p>
+
+          <p class="text">Message:
+          <textarea name="comments" id="comments" rows="8" cols="50" class="box-input"></textarea>
+          </p>
+
+          <div class="submit">
+          <input type="submit" value="Submit" id="submit-button">
+        </div>
+    </form>
+  </div>
+</div>
+<div id="footer">
+© Nectar Shakir 2015
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+<a href="https://www.behance.net/nectarshakir"><ul><li><img src="images/behance7.png" alt="behance logo" width="25"></a></li>
+<li><a href="https://www.linkedin.com/in/nectarshakir"><img src="images/linkedin12.png" alt="linkedin logo" width="25"></a></li></ul>
+ </div>
+  </body>
+  </html>
