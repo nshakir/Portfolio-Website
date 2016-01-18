@@ -44,6 +44,17 @@ a.current:link, a.current:visited {
     color: #dd5a40;
 }
 
+a:link {
+	color: #000;}
+a:visited {
+	color: #000;}
+a:focus {
+	color: #000000;}
+a:hover {
+	color: #dd5a40;}
+a:active {
+	color: #000;}
+
 button {
   font-family: 'Raleway', sans-serif;
   background-color: rgba(0,0,0,0.5);
@@ -54,7 +65,7 @@ button {
   cursor: pointer;
 }
 
-#work-div button {
+.bio button {
 	font-family: 'Raleway', sans-serif;
 	color: #dd5a40;
 	padding: .5em;
@@ -64,7 +75,7 @@ button {
 	border-radius: 30px;
 }
 
-#work-div a {
+.bio a {
 	text-decoration: none;
 }
 
@@ -160,10 +171,22 @@ button {
   margin-top: 1em;
 }
 
+.cta-about {
+	width: 25%;
+	float: left;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
 #process {
   width: 75%;
   margin: 0 auto;
   padding-bottom: 2em;
+}
+
+.process-cta {
+	width: 60%;
+	margin: 0 auto;
 }
 
 #footer {
@@ -265,8 +288,9 @@ button {
   margin:10px;
 }
 #work-div {
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
+	clear: both;
 }
 
 #skillset {
@@ -495,7 +519,9 @@ input:focus, textarea:focus {
 		text-align: center;
 		font-size: 125%;
 	}
-
+.cta-about {
+	display: none;
+}
 
 
 	.hero-overlay, .overlay, .bio, .projects-bio, .excerpt, #form-div, #form-main, .wireframes, #home-services  {
