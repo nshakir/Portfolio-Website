@@ -235,6 +235,7 @@ button {
 .projects-bio {
   width: 60%;
   float: left;
+	padding-bottom: 2em;
 }
 .projects-bio h2 {
   line-height: 1.5em;
@@ -303,6 +304,17 @@ button {
 	margin: auto 0;
 	text-align:center;
 }
+
+.resume-wrapper {
+	width: 80%;
+	margin: auto 0;
+}
+
+#cover-content {
+	width: 80%;
+	margin: auto 0;
+}
+
 
 ul.tabs{
 	margin: 0px;

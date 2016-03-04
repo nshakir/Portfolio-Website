@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+
+<title>Nectar Shakir | Web Design | Web Development | UX Experience | Seattle, WA</title>
+<link href="style.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+	$(window).load(function() {
+
+		$("#toggle").click(function() {
+
+
+			$("#toggle-nav").toggle();
+
+		});
+
+	});
+</script>
+
+<body>
+    <div id="main-nav">
+			<div id="logo"><a href="http://nectarshakir.com"><h1>NECTAR<br> SHAKIR</h1></a></div>
+  <p id="toggle">☰ MENU</p>
+  <nav id="toggle-nav">
+  <div id="nav-items">
+  <ul>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="cossar.html" class="current">PROJECTS</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+  </ul>
+  </div>
+</nav>
+</div>
+<div class="wrapper">
+<div class="projects">
+  <ul class="tabs">
+  <li class="tab-link current" data-tab="tab-1">Cover Letter</li>
+  <li class="tab-link" data-tab="tab-2">Experience</li>
+
+</ul>
+<div id="tab-1" class="tab-content current">
+<div class="projects-bio">
+  <h5>COVER LETTER</h5>
+	<p>I’m submitting an application for the Web Producer position you advertised on your website on March 3rd, 2016. I am interested in applying for the position of Web Producer at your company and would like you to consider me for the role.</p>
+	<p>I have a background in web development and experience of successfully designing a website layout, usability and appearance. Over the last year, I’ve had the opportunity of working for a variety of businesses and with this, has given me extensive web designing knowledge and technical skills.</p>
+	 <p>A quick review of my attached resume will show that I have been involved in the creation of websites that incorporated dynamic images while using Adobe Creative Suite (Illustrator and Photoshop), WordPress integration, ecommerce capabilities and scripting languages such as HTML, CSS, Javascript and PHP. I also possess excellent communication skills and am comfortable working on projects as part of a team or individually.</p>
+
+	 <p>I am in the Greater Seattle area and can locate if the opportunity comes.
+
+	   I learned HTML and CSS while attending Seattle Central Community College while obtaining the Web Design Certification.  I can start as soon as possible.  My salary qualifications would be a salary of $40,000-$45,000.</p></div> <!-- End projects-bio -->
+<div class="proj-list">
+	<h4>Skills</h4>
+	<li>Web Design</li>
+	<li>UX Design</li>
+	<li>Web Development</li>
+	</ul>
+
+	<ul class="skills">
+	<li>HTML + CSS3</li>
+	<li>Basic Javascript + JQuery</li>
+	<li>Basic PHP</li>
+	</ul>
+
+	<ul class="skills">
+	<li>WordPress Integration</li>
+	<li>Responsive Development</li>
+	<li>Wireframing + Prototyping</li>
+	</ul>
+
+	<h4>Education</h4>
+	<h5>Seattle Central College</h5>
+	Web Design Certificate
+
+	<h5>Columbia College Chicago</h5>
+	Bachelor's in Fine Arts: Film and Video
+</div> <!-- End proj-list -->
+</div> <!-- End tab 1 -->
+
+	<div id="tab-2" class="tab-content">
+<div class="wireframes">
+<h4>Experience</h4>
+		<div class="excerpt">
+			<h4>I Am an Educator | Seattle, WA | 2016</h4>
+		  <h5>Web Design | Web Development</h5>
+		  <p>Designing an resource website that will reach out to the public about Black Lives Matter, Standardized testing for public and magnet schools in Seattle as well as the US. </p>
+		  <ul>
+		    <li>Website Redesign for Activist/Educator, Jesse Hagopian</li>
+		<li>Scope: HTML, CSS3, JQuery, PHP, responsive development, WordPress</li>
+		</ul>
+
+		  <h4>Seattle Opt Out | Seattle, WA | 2016</h4>
+		  <h5>Web Design | Web Development</h5>
+		<p>Designing an informational website that will reach out to parents and educators about the different standardize testing that is used all year around in Seattle and local areas. </p>
+		<ul>
+		  <li>Scope: HTML, CSS3, JQuery, PHP, responsive development, wireframe development, WordPress</li>
+		</ul>
+		  <h4>Motorless City Bicycle Company | 2016</h4>
+		  <h5>Web Design | Web Development</h5>
+		  <p>
+		    Working remotely with clients in Detroit, MI
+		    Applying user experience practices to make a content audit, information architecture and in doing so have designed wireframes and visual prototypes of the website.
+		    <ul>
+		      <li>Working with clients remotely.</li>
+		<li>Scope: HTML, CSS3, JQuery, PHP, responsive development, wireframe development, WordPress</li>
+		</ul>
+		  </p>
+		  <h4>Center of Collaborative Systems in Safety and Resiliance | 2015</h4>
+		    <h5>Web Design | Web Development</h5>
+
+		    <p>With a group of 2 web designers and 2 web developers, we built CoSSar a dynamic and responsive website through WordPress. </p>
+		    <ul><li>Scope: HTML, CSS3, JQuery, PHP, responsive development, wireframe development, WordPress</li>
+
+		</div>
+</div> <!-- End wireframes -->
+</div><!-- End tab 2 -->
+
+
+</div> <!-- End projects -->
+</div> <!-- End div wrapper -->
+<div id="footer">
+© Nectar Shakir 2015
+<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+<a href="https://www.behance.net/nectarshakir"><ul><li><img src="images/behance7.png" alt="behance logo" width="25"></a></li>
+<li><a href="https://www.linkedin.com/in/nectarshakir"><img src="images/linkedin12.png" alt="linkedin logo" width="25"></a></li></ul>
+ </div>
