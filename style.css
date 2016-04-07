@@ -218,7 +218,7 @@ button {
 }
 #projects-navbar {
 	float: right;
-	width: 25%;
+	width: 35%;
 }
 
 #projects-navbar a {
@@ -256,6 +256,11 @@ button {
   width: 50%;
   text-align:center;
 	padding: .25em
+}
+
+#mockup img {
+	text-align: center:
+	width: 100%;
 }
 
 .wireframes {
