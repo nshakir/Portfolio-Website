@@ -258,10 +258,6 @@ button {
 	padding: .25em
 }
 
-#mockup img {
-	text-align: center:
-	width: 100%;
-}
 
 .wireframes {
   clear:both;
@@ -274,6 +270,10 @@ button {
 }
 
 .wireframes img {
+	text-align: center;
+}
+
+.proj-img img {
   margin-right: 20px;
   text-align:center;
 }
